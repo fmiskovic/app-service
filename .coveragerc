@@ -1,8 +1,8 @@
 [run]
-source = project_name
+source = app_service
 
 [report]
 omit =
     */python?.?/*
     */site-packages/nose/*
-    project_name/__main__.py
+    app_service/__main__.py
